@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>calculadora</title>
+	<link rel="stylesheet" href="material.min.css">
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="contenido">
+	<div class="mdl-grid cliente" >
+		<div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-phone">
+			<input type="text" class="mdl-textfield__input" id="cliente" placeholder="Nombre del cliente" autofocus>
+		</div>
+	</div>
+	<div class="mdl-grid ConteOpereciones">
+		<!--aca debe de ir el generador de inputs-->
+	</div>
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><input type="text" id="total" disabled="disabled"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><input type="number" id="Recivido"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><input type="text" id="Diferencia" disabled="disabled"></td>
+		</tr>
+	</table>
+
+	<div class="mdl-grid footer">
+		<!--vista de resultado-->
+		<div class="mdl-cell mdl-cell--1-col mdl-cell--1-col-phone">
+			<button class="mdl-button mdl-button--raised mdl-button--colored" onClick="window.location.reload(false)">Nuevo</button>
+		</div>
+	</div>
+</div>
+<script src="jquery310.js"></script>
+<script src="material.min.js"></script>
+<script src="js.js" type="text/javascript"></script>
+</body>
+</html>
